@@ -179,7 +179,52 @@ nav {
 
 
 /* Lanjut Disini */
-
+.contents {
+  height: 500px;
+  margin-top: 10px;
+}
+.section-title {
+  border-bottom: 2px solid black;
+  font-size: 26px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.section-title p {
+  font-size: 22px;
+}
+.contents-item {
+  float: left;
+  width: 25%;
+  padding: 30px 45px;
+  position: relative;
+  transition: 0.3s;
+}
+.contents-item:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.contents-item img {
+  height: 225px;
+  width: 162.5px;
+  }
+.contents-item:hover img{
+  opacity: 0.5;
+  }
+.contents-item p {
+  display: block;
+  font-size: 10px;
+  color: black;
+  position: absolute;
+  top: 120px;
+  left: 75px;
+  width: 100%;
+  opacity: 0;
+  }
+.contents-item:hover p{
+opacity: 1;
+font-size: 20px;
+transition: 0.5s;
+}
 /* Akhir Main */
 
 /* Responsive */
