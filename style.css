@@ -199,6 +199,7 @@ nav {
   width: 25%;
   position: relative;
   transition: 0.3s;
+  padding: 20px 0px;
 }
 .contents-item:hover {
   background-color: white;
