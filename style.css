@@ -281,7 +281,7 @@ transition: 0.5s;
 /* Responsive */
 /* Tablet & Desktop */
 @media screen and (min-width: 670px) {
-  .fa {
+  .fa-bars {
     display: none;
   }
 }
