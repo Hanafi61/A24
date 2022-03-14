@@ -304,7 +304,7 @@ transition: 0.5s;
     height: 300px;
   }
   .about-image-content {
-    display: static;
+    display: block;
   }
   .content-1,
   .content-2,
@@ -312,6 +312,14 @@ transition: 0.5s;
   .content-4 {
     height: 300px;
     width: 100%;
+  }
+  .contents-item {
+    float: none;
+    width: 100%;
+  }
+  .contents-item img {
+    height: 250px;
+    width: 200px;
   }
 }
 /* Animasi */
